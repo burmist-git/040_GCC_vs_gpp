@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/172587/what-is-the-difference-between-g-and-gcc
+
+According to GCC's online documentation link options and how g++ is invoked, g++ is equivalent to gcc -xc++ -lstdc++ -shared-libgcc (the 1st is a compiler option, the 2nd two are linker options). This can be checked by running both with the -v option (it displays the backend toolchain commands being run).
